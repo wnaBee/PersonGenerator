@@ -36,3 +36,4 @@ print("credit card:", cardtype)
 print("card number:", creditnum)
 print("CVV:", random.randint(100,999))
 print("Expiry date: " + str(random.randint(1,12)) + "/" + str(datetime.datetime.now().year + random.randint(0, 5))[2:])
+
